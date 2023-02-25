@@ -35,7 +35,7 @@ import twitter
 
 
 st.title("Twitter Tweets Sentiment Analysis and WordCloud")
-image = Image.open(r"C:\Users\HP\Downloads\twitterlogo.jpg")
+image = Image.open("twitterlogo.jpg")
 st.sidebar.image(image)
 
 topic = st.sidebar.text_input("",'hashtag topic')
